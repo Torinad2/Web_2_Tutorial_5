@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author: Nikita Baiborodov
+   Date: 09/21/2025
    
    Filename: tf_styles1.css
    
@@ -24,7 +24,7 @@
 /* HTML and Body Styles */
 
 html {
-   background: url(tf_back1.png) center center / cover no-repeat fixed;
+   background: url(../Images/tf_back1.png) center center / cover no-repeat fixed;
    height: 100%;
    font-family: Verdana, Geneva, sans-serif;
    font-size: 12px;
@@ -149,5 +149,21 @@ body > footer {
 
 
 /* New Styles Added Below */
+/* ================================
+   Mobile Styles: 0px to 480px
+   ================================ */
+@media only screen and (max-width: 480px) {
+}
 
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================ */
+@media only screen and (min-width: 481px) {
+}
+
+/* ================================
+   Desktop Styles: 769px and greater
+   ================================ */
+@media only screen and (min-width: 769px) {
+}
 
