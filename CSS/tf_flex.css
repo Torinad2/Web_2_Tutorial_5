@@ -20,9 +20,12 @@
    Base Flex Styles
    ================
 */
-
-
-
+body {
+    display: -webkit-flex; /* для старых WebKit */
+    display: flex;
+    -webkit-flex-flow: row wrap; /* направление + перенос */
+    flex-flow: row wrap;
+}
 
 /* =========================
    Mobile Styles: 0 to 480px 
